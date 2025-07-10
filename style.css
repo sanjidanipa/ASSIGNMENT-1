@@ -26,6 +26,7 @@
 .color-btn{
     background-color: #4E47FF;
     color: #FFFFFF;
+    font-size: 16px;
 }
 
 .hero{
@@ -53,8 +54,26 @@
 .sign-btn{
     width: 132px;
     height: 48px;
-    padding: 10px 20px 10px 20px;
-    font-size: 16px;
+    font-weight: bold;
     border-radius: 10px;
 }
 
+/* title styles */
+
+.title{
+    height: 237px;
+    width: 905px;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo-title{
+    font-size: 62px;
+    color: #252432;
+    padding-bottom: 37px;
+}
+.stay-btn{
+border-radius: 10px;
+height: 48px;
+width: 174px;
+font-weight: bold;
+}
