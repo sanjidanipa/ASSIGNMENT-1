@@ -27,7 +27,14 @@
     background-color: #4E47FF;
     color: #FFFFFF;
     font-size: 16px;
+    font-weight: bold;
+     border-radius: 10px;
 }
+  
+main section{
+    margin-bottom: 130px;
+}
+
 
 .hero{
     background-image: url("../Assets/Hero-bg.png");
@@ -54,8 +61,6 @@
 .sign-btn{
     width: 132px;
     height: 48px;
-    font-weight: bold;
-    border-radius: 10px;
 }
 
 /* title styles */
@@ -72,8 +77,42 @@
     padding-bottom: 37px;
 }
 .stay-btn{
-border-radius: 10px;
 height: 48px;
 width: 174px;
-font-weight: bold;
+}
+
+/* launch styles */
+
+.launch{
+    height: 328px;
+    width: 1140px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.description{
+    height: 203px;
+    width: 517px;
+}
+.description h2{
+    font-size: 42px;
+    padding-bottom: 20px;
+}
+
+.description p{
+      font-size: 24px;
+    padding-bottom: 20px;
+    color: #252432;
+    font-weight:lighter;
+}
+.launch-pic img{
+    height: 328px;
+    width: 403px;
+    border-radius: 40px;
+}
+.launch-btn{
+    width: 229px;
+    height: 48px;
 }
