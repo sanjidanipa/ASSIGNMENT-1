@@ -37,7 +37,7 @@ main section{
 
 
 .hero{
-    background-image: url("../Assets/Hero-bg.png");
+    background-image: url("Hero-bg.png");
     height: 690px;
 }
 
@@ -149,4 +149,57 @@ width: 174px;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     font-weight: lighter;
+}
+
+.comment{
+    width: 1140px;
+    height: 342px;
+    margin: 0 auto;
+    margin-bottom: 130px;
+}
+.comment-title{
+    font-size: 42px;
+    color: #252432;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.user-review{
+     display: flex;
+    justify-content: space-between;
+}
+.user-card{
+    width: 306px;
+    background-color:rgb(245, 240, 240);
+    border-radius: 10px;
+    padding: 24px
+}
+.user-card h3{
+    padding-top: 24px;
+    padding-bottom: 10px;
+    font-size:24px ;
+}
+.user-card p{
+     font-size: 16px;
+     color: #1E1E1E;
+     font-weight: 100;
+}
+.avatar-block{
+    display: flex;
+    margin-top: 24px;
+    gap: 10px;
+}
+.user-pic{
+    border-radius: 50%;
+}
+.user-name{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+
+}
+.date{
+
+ font-size: 16px;
+    font-weight: 100;
+    color: #B3B3B3;
 }
