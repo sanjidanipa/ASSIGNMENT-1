@@ -90,6 +90,7 @@ width: 174px;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 130px;
 
 }
 .description{
@@ -115,4 +116,37 @@ width: 174px;
 .launch-btn{
     width: 229px;
     height: 48px;
+}
+/* users styles */
+.users{
+    max-width: 1140px;
+    height: 306px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 130px;
+}
+.user-title{
+    font-size: 38px;
+    padding-bottom: 40px;
+    color: #252432;
+    padding-top: 50px;
+}
+.productive-users{
+    height: 121px;
+    width: 856px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.num{
+    font-size: 80px;
+    color: #4E47FF;
+}
+
+.status{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: lighter;
 }
