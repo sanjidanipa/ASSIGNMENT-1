@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* inter-font */
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* raleway-font */
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared styles */
+.color-btn{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+}
+
+.hero{
+    background-image: url("../Assets/Hero-bg.png");
+    height: 690px;
+}
+
+/* nav styles */
+
+
+.navber{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 150px;
+    max-width: 1140px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.navber h1{
+    color: #4E47FF;
+    font-size: 34px;
+}
+.sign-btn{
+    width: 132px;
+    height: 48px;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
