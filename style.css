@@ -29,6 +29,7 @@
     font-size: 16px;
     font-weight: bold;
      border-radius: 10px;
+     border: none;
 }
   
 main section{
@@ -57,6 +58,7 @@ main section{
 .navber h1{
     color: #4E47FF;
     font-size: 34px;
+    font-weight: bolder;
 }
 .sign-btn{
     width: 132px;
@@ -150,7 +152,7 @@ width: 174px;
     color: rgba(0, 0, 0, 0.5);
     font-weight: lighter;
 }
-
+/* .comment styles */
 .comment{
     width: 1140px;
     height: 342px;
@@ -188,7 +190,9 @@ width: 174px;
     margin-top: 24px;
     gap: 10px;
 }
-.user-pic{
+.avatar-block img{
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
 }
 .user-name{
@@ -202,4 +206,48 @@ width: 174px;
  font-size: 16px;
     font-weight: 100;
     color: #B3B3B3;
+}
+
+/* logo-form styles */
+
+.logo-form{
+    max-width: 1140px;
+    height: 632px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 71px;
+    padding-bottom: 71px;
+    background-color: #FFFFFF
+
+}
+.label-title{
+    font-size: 18px;
+    font-weight: 500px;
+ 
+}
+input[type="text"], input[type="email"]{
+    width: 450px;
+    padding: 20px 32px;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    font-weight: 400px;
+    
+}
+textarea{
+    height: 135px;
+    width: 450px;
+     border-radius: 10px;
+      padding: 20px 32px;
+      color: rgba(0, 0, 0, 0.5);
+      font-size: 20px;
+}
+.touch-btn{
+    width: 520px ;
+    height: 62px; 
+   border: none;
+   padding: 10px;
 }
