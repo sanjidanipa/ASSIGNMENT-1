@@ -211,6 +211,38 @@ width: 174px;
  font-size: 16px;
    color:  rgba(179, 179, 179, 1);
 }
+/* entry styles */
+
+.entry{
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+}
+.entry h1{
+
+font-size: 50px;
+
+}
+.entry p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-right: 20px;
+
+}
+.entry button{
+        font-weight: 500;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        height: 48px;
+        width: 195px;
+}
+.entry img{
+    border-radius: 20px;
+}
+
 
 /* logo-form styles */
 
