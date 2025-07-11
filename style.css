@@ -3,7 +3,7 @@
     padding: 0;
 }
 /* inter-font */
-.open-sans-normal {
+.open-sans-inter {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -13,7 +13,7 @@
 
 /* raleway-font */
 
-.open-sans-normal {
+.open-sans-raleway{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -107,8 +107,9 @@ width: 174px;
 .description p{
       font-size: 24px;
     padding-bottom: 20px;
-    color: #252432;
-    font-weight:lighter;
+    color: rgba(37, 36, 50, 0.5);
+    
+    
 }
 .launch-pic img{
     height: 328px;
@@ -132,7 +133,7 @@ width: 174px;
 .user-title{
     font-size: 38px;
     padding-bottom: 40px;
-    color: #252432;
+    color: rgba(37, 36, 50, 1);
     padding-top: 50px;
 }
 .productive-users{
@@ -150,7 +151,7 @@ width: 174px;
 .status{
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
-    font-weight: lighter;
+    font-weight: 100px;
 }
 /* .comment styles */
 .comment{
@@ -179,11 +180,11 @@ width: 174px;
     padding-top: 24px;
     padding-bottom: 10px;
     font-size:24px ;
+    font-size: 600;
 }
 .user-card p{
      font-size: 16px;
-     color: #1E1E1E;
-     font-weight: 100;
+     color: rgba(30, 30, 30, 1);
 }
 .avatar-block{
     display: flex;
@@ -197,15 +198,15 @@ width: 174px;
 }
 .user-name{
     font-size: 16px;
-    font-weight: 400;
-    color: #757575;
+    font-weight: 600;
+    color: rgba(117, 117, 117, 1);
 
 }
 .date{
 
  font-size: 16px;
-    font-weight: 100;
-    color: #B3B3B3;
+    font-weight: ;
+   color:  rgba(179, 179, 179, 1);
 }
 
 /* logo-form styles */
@@ -220,12 +221,12 @@ width: 174px;
     align-items: center;
     padding-top: 71px;
     padding-bottom: 71px;
-    background-color: #FFFFFF
+    background-color: rgba(255, 255, 255, 0.5)
 
 }
 .label-title{
     font-size: 18px;
-    font-weight: 500px;
+    font-weight: 500px
  
 }
 input[type="text"], input[type="email"]{
@@ -234,8 +235,8 @@ input[type="text"], input[type="email"]{
     border-radius: 10px;
     color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
-    font-weight: 400px;
-    
+    font-weight: 500px;
+  
 }
 textarea{
     height: 135px;
@@ -244,6 +245,7 @@ textarea{
       padding: 20px 32px;
       color: rgba(0, 0, 0, 0.5);
       font-size: 20px;
+      
 }
 .touch-btn{
     width: 520px ;
